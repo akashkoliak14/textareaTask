@@ -5,6 +5,7 @@ const App = () => {
   const [remainingChars, setRemainingChars] = useState(10);
   const [isSubmitDisabled, setIsSubmitDisabled] = useState(false);
 
+  
   const handleChange = (event) => {
     const inputValue = event.target.value;
     setText(inputValue);
